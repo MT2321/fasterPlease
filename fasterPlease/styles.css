@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+}
+
+button {
+  margin: 0.2em;
+  height: 32px;
+  width: 32px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+button#current {
+  margin: 0.2em;
+  height: 32px;
+  width: 32px;
+  border: 0;
+  outline: none;
+  border-radius: 1em;
+  color: white;
+  font-weight: bolder;
+  background-color: darkcyan;
+  align-items: center;
+}
+
+button:hover {
+  background-color: skyblue;
+  transition-duration: 400ms;
+}
+button#slower {
+  background-image: url(assets/icons/images/faster_20.png);
+  transform: scaleX(-1);
+}
+button#faster {
+  background-image: url(assets/icons/images/faster_20.png);
+}

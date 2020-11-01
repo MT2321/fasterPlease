@@ -1,6 +1,8 @@
 # fasterPlease
 A Chrome extension to change playback speed in recorded blackboard sessions 
 
+![ui](fasterPlease\assets\previews\ui.PNG)
+
 ## How to install?
 <ol>
 <li>Donwload or clone this repo</li>
